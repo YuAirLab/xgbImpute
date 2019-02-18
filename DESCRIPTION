@@ -1,0 +1,13 @@
+Package: xgbImpute
+Type: Package
+Title: xgbImpute
+Version: 0.1.0
+Data: 2019-02-18
+Author: Song Jian
+URL: https://github.com/yu_lab/xgbImpute
+Maintainer: Song Jian <songjian@westlake.edu.cn>
+Description: Fill missing values in a data matrix based on xgboost.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Depends: xgboost
