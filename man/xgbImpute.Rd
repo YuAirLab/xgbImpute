@@ -18,8 +18,8 @@ xgbImpute(raw.data, learner = 'gblinear', verbose = T)
   \item{verbose}{if TRUE print status updates}
 }
 \examples{
-  x = data.frame(matrix(rnorm(10000),1000,10))
-  x.missing <- x > 2
+  x = data.frame(matrix(rnorm(100),10,10))
+  x.missing <- x > 1
   x[x.missing] <- NA
   x.imputed <- xgbImpute(x)
 }
