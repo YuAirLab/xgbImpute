@@ -10,4 +10,4 @@ Description: Fill missing values in a data matrix based on xgboost.
 License: GPL
 Encoding: UTF-8
 LazyData: true
-Depends: xgboost
+Depends: xgboost, imputation
